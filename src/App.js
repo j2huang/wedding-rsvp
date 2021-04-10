@@ -52,7 +52,12 @@ class App extends React.Component {
         </div>
 
         <div id="slide1">
-          <Invitations />
+          <FadeIn 
+              delay="2000"
+              transitionDuration="1000"
+              >
+              <Invitations />
+            </FadeIn>
         </div>
 
       </div>
