@@ -10,16 +10,7 @@ import FadeIn from 'react-fade-in';
 
 import React from 'react';
 
-interface IHooksHOCProps {
-  width: number;
-}
-
-class App extends React.Component<IHooksHOCProps> {
-
-  constructor(props) {
-    super(props);
-  };
-
+class App extends React.Component {
   render() {
     return (
       <div className="App">
@@ -53,7 +44,7 @@ class App extends React.Component<IHooksHOCProps> {
               >
               <div>
                 <a href="#slide1">
-                  <img src={downchevron} />
+                  <img alt="Go to form" src={downchevron} />
                 </a>
               </div>
             </FadeIn>
@@ -69,6 +60,4 @@ class App extends React.Component<IHooksHOCProps> {
     );
   }
 }
-
-// export default withHooksHOC(App);
 export default App;
