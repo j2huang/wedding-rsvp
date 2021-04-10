@@ -23,41 +23,12 @@ body {
   margin-top: 100px;
 }
 
-.Form {
-  text-align: left;
-}
-
-.Button {
-  display: block;
-  text-align: right;
-  margin-top: 1rem;
-}
-
 p {
   color: #E2B35E;
   font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
 
-input {
-  background-color: #F2F7F7;
-  border: none;
-  border-bottom: 0.3rem solid #65C3A5;
-  height: 3rem;
-  color: #0B2826;
-  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  padding-top: 0.3rem;
-  padding-left: 0.6rem;
-  width: 690px;
-}
-
-button {
-  border: none;
-  background-color: #65C3A5;
-  color: #072E20;
-  height: 3rem;
-  padding: 1rem 2rem;
-  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
-  font-size: 1rem;
+.padding-top-medium {
+  padding-top: 1.25rem;
 }

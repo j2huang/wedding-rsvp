@@ -17,15 +17,24 @@ class App extends React.Component {
         <div id="slide0">
           <header>
             <FadeIn 
-              delay="200"
-              transitionDuration="1200"
+              transitionDuration="1000"
               >
               <div>
                 <img src={header} alt="header" />
               </div>
+            </FadeIn>
+            <FadeIn 
+              delay="500"
+              transitionDuration="1000"
+              >
               <div>
                 <img src={logo} alt="logo" />
               </div>
+            </FadeIn>
+            <FadeIn 
+              delay="800"
+              transitionDuration="1000"
+              >
               <div>
                 <img src={valentine} alt="valentine" />
               </div>
@@ -33,7 +42,7 @@ class App extends React.Component {
           </header>
           <div className="Banner">
             <FadeIn 
-              delay="1200"
+              delay="1300"
               transitionDuration="1000"
               >
               <p>You’re at the right place. Keep scrolling to RSVP.</p>
@@ -42,7 +51,7 @@ class App extends React.Component {
               delay="1700"
               transitionDuration="800"
               >
-              <div>
+              <div class="padding-top-medium">
                 <a href="#slide1">
                   <img alt="Go to form" src={downchevron} />
                 </a>
