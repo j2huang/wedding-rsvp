@@ -28,7 +28,7 @@ class App extends React.Component {
               </div>
             </FadeIn>
             <FadeIn 
-              delay="800"
+              delay="900"
               transitionDuration="1000"
               >
               <div>
