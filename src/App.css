@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
+@media only screen and (max-width: 700px) {
+  .App {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
 body {
   background-color: #0B2826 !important;
   display: flex;
@@ -10,13 +25,15 @@ body {
   font-size: 1rem;
 }
 
-#slide0 {
-  min-height: 1000px;
-}
-
 .App {
   text-align: center;
-  margin-bottom: 20rem;
+}
+
+.Header {
+  background: url('./images/header.png') no-repeat;
+  background-position: center;
+  height: 225px;
+  width: 100%;
 }
 
 .Banner {
@@ -27,6 +44,7 @@ p {
   color: #E2B35E;
   font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   font-size: 1rem;
+  line-height: 2.5rem;
 }
 
 .padding-top-medium {

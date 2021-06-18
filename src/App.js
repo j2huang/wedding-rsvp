@@ -14,13 +14,12 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div id="slide0">
+        <div>
           <header>
             <FadeIn 
               transitionDuration="1000"
               >
-              <div>
-                <img src={header} alt="header" />
+              <div className="Header">
               </div>
             </FadeIn>
             <FadeIn 
@@ -42,31 +41,21 @@ class App extends React.Component {
           </header>
           <div className="Banner">
             <FadeIn 
-              delay="1300"
-              transitionDuration="1000"
-              >
-              <p>You’re at the right place. Keep scrolling to RSVP.</p>
-            </FadeIn>
-            <FadeIn 
-              delay="1700"
+              delay="800"
               transitionDuration="800"
               >
-              <div class="padding-top-medium">
-                <a href="#slide1">
-                  <img alt="Go to form" src={downchevron} />
-                </a>
-              </div>
+              <p>
+                We're getting married!<br/>
+                Click the button below to RSVP.</p>
             </FadeIn>
-          </div>
-        </div>
-
-        <div id="slide1">
-          <FadeIn 
-              delay="2000"
-              transitionDuration="1000"
+            <FadeIn 
+              delay="900"
+              transitionDuration="800"
               >
+                <br />
               <Invitations />
             </FadeIn>
+          </div>
         </div>
 
       </div>
