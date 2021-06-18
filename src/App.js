@@ -1,10 +1,7 @@
 import './App.css';
 import Invitations from './Invitations.js';
-
-import header from './images/header.png';
 import logo from './images/logo.png';
 import valentine from './images/valentine.png';
-import downchevron from './images/chevron-down.png';
 
 import FadeIn from 'react-fade-in';
 
