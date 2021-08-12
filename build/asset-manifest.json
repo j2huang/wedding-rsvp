@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/rsvp/static/css/main.dae4b6b2.chunk.css",
-    "main.js": "/rsvp/static/js/main.9f28a3db.chunk.js",
-    "main.js.map": "/rsvp/static/js/main.9f28a3db.chunk.js.map",
-    "runtime-main.js": "/rsvp/static/js/runtime-main.ed41b725.js",
-    "runtime-main.js.map": "/rsvp/static/js/runtime-main.ed41b725.js.map",
-    "static/js/2.8106bc99.chunk.js": "/rsvp/static/js/2.8106bc99.chunk.js",
-    "static/js/2.8106bc99.chunk.js.map": "/rsvp/static/js/2.8106bc99.chunk.js.map",
-    "static/js/3.85003070.chunk.js": "/rsvp/static/js/3.85003070.chunk.js",
-    "static/js/3.85003070.chunk.js.map": "/rsvp/static/js/3.85003070.chunk.js.map",
-    "index.html": "/rsvp/index.html",
-    "static/css/main.dae4b6b2.chunk.css.map": "/rsvp/static/css/main.dae4b6b2.chunk.css.map",
-    "static/js/2.8106bc99.chunk.js.LICENSE.txt": "/rsvp/static/js/2.8106bc99.chunk.js.LICENSE.txt",
-    "static/media/header.fa167691.png": "/rsvp/static/media/header.fa167691.png",
-    "static/media/logo.faccecda.png": "/rsvp/static/media/logo.faccecda.png",
-    "static/media/valentine.f5494f34.png": "/rsvp/static/media/valentine.f5494f34.png"
+    "main.css": "/static/css/main.2b386ab3.chunk.css",
+    "main.js": "/static/js/main.b5172c69.chunk.js",
+    "main.js.map": "/static/js/main.b5172c69.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bd57818c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bd57818c.js.map",
+    "static/js/2.8106bc99.chunk.js": "/static/js/2.8106bc99.chunk.js",
+    "static/js/2.8106bc99.chunk.js.map": "/static/js/2.8106bc99.chunk.js.map",
+    "static/js/3.85003070.chunk.js": "/static/js/3.85003070.chunk.js",
+    "static/js/3.85003070.chunk.js.map": "/static/js/3.85003070.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2b386ab3.chunk.css.map": "/static/css/main.2b386ab3.chunk.css.map",
+    "static/js/2.8106bc99.chunk.js.LICENSE.txt": "/static/js/2.8106bc99.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/header.fa167691.png",
+    "static/media/logo.faccecda.png": "/static/media/logo.faccecda.png",
+    "static/media/valentine.f5494f34.png": "/static/media/valentine.f5494f34.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed41b725.js",
+    "static/js/runtime-main.bd57818c.js",
     "static/js/2.8106bc99.chunk.js",
-    "static/css/main.dae4b6b2.chunk.css",
-    "static/js/main.9f28a3db.chunk.js"
+    "static/css/main.2b386ab3.chunk.css",
+    "static/js/main.b5172c69.chunk.js"
   ]
 }
