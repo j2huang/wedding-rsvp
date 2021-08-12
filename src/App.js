@@ -38,7 +38,7 @@ class App extends React.Component {
           </header>
           <div className="Banner">
             <FadeIn 
-              delay="1000"
+              delay="800"
               transitionDuration="800"
               >
               <p>
@@ -46,7 +46,7 @@ class App extends React.Component {
                 Click the button below to RSVP.</p>
             </FadeIn>
             <FadeIn 
-              delay="1000"
+              delay="800"
               transitionDuration="800"
               >
                 <br />
